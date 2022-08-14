@@ -16,8 +16,6 @@ How It Works
 
 -  use 'use strict'.
 
--  use regular expression for validation of number
-
 -  responsive webpage.
 
 Tech Stack
