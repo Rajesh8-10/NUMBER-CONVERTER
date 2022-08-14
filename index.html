@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="bootstrap.css">
+     <title>NUMBERS CONVERTION</title>
+ </head>
+   <body>
+     <div id="whole-container" >
+       <h1>NUMBER CONVERTER</h1>
+       <br>
+       <br>
+       <div class="row">
+       <div class="col-md-2"></div>
+       <div class="col-md-8">
+      ENTER YOUR NUMBER HERE :
+           <input type="text" id="text"/>
+       <br><br>
+ <!----------------------- FROM------------------------>
+       <label for="number-type">FROM :</label>
+           <select name = "base" id ="from">
+             <option value="10">Decimal</option>
+             <option value="16">Hexa Decimal</option>
+             <option value="8">Octal</option>
+             <option value="2">Binary</option>
+           </select>
+         &nbsp;&nbsp;&nbsp;
+    <!--------------------------TO---------------->
+       <label for="number-type">TO :</label>
+         <select name = "base" id ="to">
+           <option value="10">Decimal</option>
+           <option value="16">Hexa Decimal</option>
+           <option value="8">Octal</option>
+           <option value="2">Binary</option>
+         </select>
+       <br><br><br><br><br>
+       <button id="btnConvert" class="btn btn-primary">Convert</button>
+       <button id="btnSwap" class="btn btn-secondary">Swap</button>
+       <br>
+       <br>
+    <span id="result">RESULT:</span>
+       <input id="txtRes" type="text" />
+       </div>
+       <div class="col-md-2"></div>
+       </div>
+       </div>
+     <script src="script.js"></script>
+   </body>
+</html>
+
+
+
+
